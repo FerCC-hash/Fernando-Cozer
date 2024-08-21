@@ -1,0 +1,36 @@
+programa 
+{
+  inclua biblioteca Matematica --> m
+  funcao inicio() {
+    real cat1 = 11.5
+    real cat2 = 6.3
+    real hip = (cat1*cat1)+(cat2*cat2)
+    real resultado = m.raiz( hip,  2)
+    escreva("Letra A) Considerando uma casa que mede 11,5 x 6,3 metros, a quantidade mínima necessária de fio a ser comprada é de ", resultado , " metros.\n")
+
+    real cat3 
+    real cat4 
+    escreva("\n Letra B) Informe os lados da casa.\nL1= ")
+    leia(cat3)
+    escreva("Informe o outro lado.\nL2= ")
+    leia(cat4)
+    real hip1 = (cat3*cat3)+(cat4*cat4)
+    real resultado1 = m.raiz( hip,  2)
+
+    escreva("Considerando uma casa que mede ", cat3," x ", cat4," metros, a quantidade mínima necessária de fio a ser comprada é de ", m.arredondar(resultado1, 2) , " metros.")
+
+
+
+  }
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 393; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
